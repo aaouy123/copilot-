@@ -1,0 +1,37 @@
+rules:
+  # GitHub Copilot
+  - DOMAIN-SUFFIX,copilot.github.com,Copilot
+  - DOMAIN-SUFFIX,api.github.com,Copilot
+  - DOMAIN-SUFFIX,github.com,Copilot
+  - DOMAIN-SUFFIX,githubusercontent.com,Copilot
+  - DOMAIN-SUFFIX,githubassets.com,Copilot
+
+  # Visual Studio Code
+  - DOMAIN-SUFFIX,vscode.dev,Copilot
+  - DOMAIN-SUFFIX,visualstudio.com,Copilot
+  - DOMAIN-SUFFIX,vscode-unpkg.net,Copilot
+  - DOMAIN-SUFFIX,vscode-cdn.net,Copilot
+
+  # Microsoft services
+  - DOMAIN-SUFFIX,microsoft.com,Copilot
+  - DOMAIN-SUFFIX,microsoftonline.com,Copilot
+  - DOMAIN-SUFFIX,azure.com,Copilot
+
+  # OpenAI (Copilot uses OpenAI's technology)
+  - DOMAIN-SUFFIX,openai.com,Copilot
+  - DOMAIN-SUFFIX,openai.azure.com,Copilot
+
+  # NPM (for extension updates)
+  - DOMAIN-SUFFIX,npmjs.com,Copilot
+
+  # Telemetry and Crash Reporting
+  - DOMAIN-SUFFIX,appcenter.ms,Copilot
+  - DOMAIN-SUFFIX,applicationinsights.azure.com,Copilot
+
+  # Content Delivery Networks
+  - DOMAIN-SUFFIX,cloudflare.com,Copilot
+  - DOMAIN-SUFFIX,akamaized.net,Copilot
+
+  # Authentication
+  - DOMAIN-SUFFIX,login.microsoftonline.com,Copilot
+  - DOMAIN-SUFFIX,auth0.com,Copilot
