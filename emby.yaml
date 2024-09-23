@@ -129,4 +129,6 @@ payload:
   - DOMAIN-SUFFIX,e.niceduck.me
   - DOMAIN-SUFFIX,cf2.jmsooo.com
   - DOMAIN-SUFFIX,shenmi.link
+  - DOMAIN-SUFFIX,e.niceduck.me
+  - DOMAIN-SUFFIX,cf.niceduck.lol
   - DOMAIN-KEYWORD,emby
