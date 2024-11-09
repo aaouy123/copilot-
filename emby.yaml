@@ -132,4 +132,5 @@ payload:
   - DOMAIN-SUFFIX,e.niceduck.me
   - DOMAIN-SUFFIX,cf.niceduck.lol
   - DOMAIN-SUFFIX,dpxcdn.niceduck.lol
+  - DOMAIN-SUFFIX,jcf.niceduck.lol
   - DOMAIN-KEYWORD,emby
