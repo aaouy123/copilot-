@@ -1,38 +1,93 @@
 # name: AI大模型
-Date of Writing：2024.10.26
-payload:  
-  - DOMAIN,browser-intake-datadoghq.com
+# Date of Writing：2024.10.26
+payload:
+  # ✅ OpenAI 相关域名和服务
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN,gemini.google.com
   - DOMAIN,openai-api.arkoselabs.com
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
   - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN,static.cloudflareinsights.com
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,algolia.net
-  - DOMAIN-SUFFIX,api.statsig.com
-  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,host.livekit.cloud
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,launchdarkly.com
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,observeit.net
-  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,openaicom.imgix.net
-  - DOMAIN-SUFFIX,segment.io
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-SUFFIX,turn.livekit.cloud
   - DOMAIN-KEYWORD,openai
   - DOMAIN-KEYWORD,openaicom-api
+
+  # ✅ Google AI（Gemini / Bard / MakerSuite / DeepMind）
+  - DOMAIN,ai.google.dev
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN,makersuite.google.com
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+  - DOMAIN-SUFFIX,apis.google.com
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-KEYWORD,colab
+  - DOMAIN-KEYWORD,developerprofiles
+  - DOMAIN-KEYWORD,generativelanguage
+  - DOMAIN-KEYWORD,aistudio
+
+  # ✅ Anthropic Claude
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+
+  # ✅ Microsoft Copilot / Bing Chat / AI 服务
+  - DOMAIN,copilot.microsoft.com
+  - DOMAIN,gateway.bingviz.microsoft.net
+  - DOMAIN,gateway.bingviz.microsoftapp.net
+  - DOMAIN,location.microsoft.com
+  - DOMAIN,odc.officeapps.live.com
+  - DOMAIN,r.bing.com
+  - DOMAIN,services.bingapis.com
+  - DOMAIN,self.events.data.microsoft.com
+  - DOMAIN,sydney.bing.com
+  - DOMAIN,www.bing.com
+  - DOMAIN-SUFFIX,api.microsoftapp.net
+  - DOMAIN-SUFFIX,edgeservices.bing.com
+  - DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
+
+  # ✅ Arkose Labs（用于OpenAI人机验证）
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+
+  # ✅ LiveKit 实时通信服务（用于 ChatGPT 通话功能等）
+  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
+  - DOMAIN-SUFFIX,host.livekit.cloud
+  - DOMAIN-SUFFIX,turn.livekit.cloud
+
+  # ✅ 第三方统计、监控、风控平台
+  - DOMAIN,browser-intake-datadoghq.com
+  - DOMAIN,cdn.usefathom.com
+  - DOMAIN,api.statsig.com
+  - DOMAIN,in.appcenter.ms
+  - DOMAIN,assets.msn.com
+  - DOMAIN-SUFFIX,algolia.net
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,segment.io
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,observeit.net
+
+  # ✅ 认证、身份验证、权限管理相关
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,launchdarkly.com
+
+  # ✅ 其它 AI 相关服务或集成平台
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,coze.com
+  - DOMAIN,api.msn.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN,static.cloudflareinsights.com
+  - DOMAIN-SUFFIX,stripe.com
+
+  # ✅ IP 白名单（OpenAI/Claude/MS等服务常用IP）
   - IP-CIDR,24.199.123.28/32,no-resolve
+  - IP-CIDR,64.23.132.171/32,no-resolve
