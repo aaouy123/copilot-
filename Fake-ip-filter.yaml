@@ -1,4 +1,4 @@
-payload::
+payload:
   # ✅ 局域网、本地域名
   - '*.lan'
   - '*.localdomain'
