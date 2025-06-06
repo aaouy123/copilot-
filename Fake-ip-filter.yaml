@@ -1,0 +1,134 @@
+# ✅ 局域网、本地域名
+- '*.lan'
+- '*.localdomain'
+- '*.example'
+- '*.invalid'
+- '.localhost'
+- '.test'
+- '.local'
+- '.home.arpa'
+- '.direct'
+
+# ⏰ 时间同步服务
+- 'time..com'
+- 'time..gov'
+- 'time..edu.cn'
+- 'time..apple.com'
+- 'time-ios.apple.com'
+- 'time1..com'
+- 'time2..com'
+- 'time3..com'
+- 'time4..com'
+- 'time5..com'
+- 'time6..com'
+- 'time7..com'
+- 'ntp..com'
+- 'ntp1..com'
+- 'ntp2..com'
+- 'ntp3..com'
+- 'ntp4..com'
+- 'ntp5..com'
+- 'ntp6..com'
+- 'ntp7..com'
+- '.time.edu.cn'
+- '.ntp.org.cn'
+- '+.pool.ntp.org'
+- 'time1.cloud.tencent.com'
+
+# 🧩 系统服务 / 网络检测
+- '+.msftconnecttest.com'
+- '+.msftncsi.com'
+- 'localhost.ptlogin2.qq.com'
+- 'localhost.sec.qq.com'
+- 'localhost..weixin.qq.com'
+
+# 🎮 主机游戏平台
+- '+.steamcontent.com'
+- '+.srv.nintendo.net'
+- '.n.n.srv.nintendo.net'
+- '+.cdn.nintendo.net'
+- '+.stun.playstation.net'
+- 'xbox...microsoft.com'
+- '..xboxlive.com'
+- 'xbox..microsoft.com'
+- 'xnotify.xboxlive.com'
+- '+.battle.net'
+- '+.battlenet.com.cn'
+- '+.wotgame.cn'
+- '+.wggames.cn'
+- '+.wowsgame.cn'
+- '+.wargaming.net'
+
+# 🔊 STUN/NAT 服务
+- 'stun..'
+- 'stun...'
+- '+.stun..'
+- '+.stun...*'
+- '+.stun....'
+- '+.stun.....*'
+- 'stun.l.google.com'
+
+  # 📡 路由器本地服务
+- '*.linksys.com'
+- '*.linksyssmartwifi.com'
+- '*.router.asus.com'
+- 'heartbeat.belkin.com'
+
+# 🍎 Apple 更新服务
+- 'mesu.apple.com'
+- 'swscan.apple.com'
+- 'swquery.apple.com'
+- 'swdownload.apple.com'
+- 'swcdn.apple.com'
+- 'swdist.apple.com'
+
+# 🔍 Google 服务
+- 'lens.l.google.com'
+- 'na.b.g-tun.com'
+
+# 📺 视频服务 CDN
+- '+.nflxvideo.net'
+- '*.mcdn.bilivideo.cn'
+- '+.media.dssott.com'
+
+# 🎵 音乐服务
+- 'music.163.com'
+- '.music.163.com'
+- '.126.net'
+- 'musicapi.taihe.com'
+- 'music.taihe.com'
+- 'songsearch.kugou.com'
+- 'trackercdn.kugou.com'
+- '.kuwo.cn'
+- 'api-jooxtt.sanook.com'
+- 'api.joox.com'
+- 'joox.com'
+- 'y.qq.com'
+- '.y.qq.com'
+- 'streamoc.music.tc.qq.com'
+- 'mobileoc.music.tc.qq.com'
+- 'isure.stream.qqmusic.qq.com'
+- 'dl.stream.qqmusic.qq.com'
+- 'aqqmusic.tc.qq.com'
+- 'amobile.music.tc.qq.com'
+- '.xiami.com'
+- '.music.migu.cn'
+- 'music.migu.cn'
+
+# 🏦 银行服务
+- '+.cmbchina.com'
+- '+.cmbimg.com'
+
+# 🌐 T-Mobile / UltraMobile WiFi 通话
+- '+.3gppnetwork.org'
+
+# 🚀 下载工具 / 远程控制（已排除加速器）
+- '+.sandai.net'
+- '+.n0808.com'
+- '+.oray.com'
+- '+.orayimg.com'
+- 'shark007.net'
+
+# 📱 小米 / Mijia
+- 'Mijia Cloud'
+- '+.market.xiaomi.com'
