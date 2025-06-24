@@ -137,4 +137,4 @@ payload:
   - DOMAIN-SUFFIX,emby.moe
   - DOMAIN-SUFFIX,niceduck.lol
   - DOMAIN-SUFFIX,xxlb.net
-  - DOMAIN-KEYWORD,emby
+  # - DOMAIN-KEYWORD,emby
