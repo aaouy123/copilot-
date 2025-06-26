@@ -137,4 +137,6 @@ payload:
   - DOMAIN-SUFFIX,emby.moe
   - DOMAIN-SUFFIX,niceduck.lol
   - DOMAIN-SUFFIX,xxlb.net
+  - DOMAIN-SUFFIX,emby.cn2gias.uk
+  - DOMAIN-SUFFIX,emby01.cn2gias.uk
   # - DOMAIN-KEYWORD,emby
