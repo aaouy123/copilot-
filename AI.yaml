@@ -1,0 +1,80 @@
+payload:
+
+  # OpenAI
+  - DOMAIN,api.openai.com
+  - DOMAIN,files.openai.com
+  - DOMAIN,platform.openai.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+
+  # OpenAI Web
+  - DOMAIN,chat.openai.com
+
+  # Anthropic Claude
+  - DOMAIN,api.anthropic.com
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+
+
+  # Google AI
+  - DOMAIN,colab.research.google.com
+  - DOMAIN,gemini.google.com
+  - DOMAIN,ai.google.dev
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+
+
+  # Microsoft Copilot / Bing AI
+  - DOMAIN,copilot.microsoft.com
+  - DOMAIN,edgeservices.bing.com
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,openai.azure.com
+  - DOMAIN-SUFFIX,azure.com
+  - DOMAIN-SUFFIX,microsoft.com
+
+
+  # Perplexity
+  - DOMAIN-SUFFIX,perplexity.ai
+
+
+  # Mistral
+  - DOMAIN-SUFFIX,mistral.ai
+
+
+  # Groq
+  - DOMAIN-SUFFIX,groq.com
+
+
+  # xAI / Grok
+  - DOMAIN-SUFFIX,x.ai
+
+
+  # HuggingFace
+  - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,hf.space
+
+
+  # Observability / CDN
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,datadoghq.com
+  - DOMAIN-SUFFIX,segment.io
+  - DOMAIN-SUFFIX,launchdarkly.com
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,cloudfront.net
+  - DOMAIN-SUFFIX,fastly.net
+
+
+  # IPv4 / IPv6 fallback
+  - IP-CIDR,24.199.123.28/32,no-resolve
+  - IP-CIDR,64.23.132.171/32,no-resolve
+  - IP-CIDR6,2606:4700::/32,no-resolve
+
+
+  # KEYWORD兜底 (谨慎使用)
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-KEYWORD,claude
+  - DOMAIN-KEYWORD,gemini
+  - DOMAIN-KEYWORD,anthropic
