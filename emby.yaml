@@ -141,4 +141,5 @@ payload:
   - DOMAIN-SUFFIX,emby01.cn2gias.uk
   - DOMAIN-SUFFIX,lite.cn2gias.uk
   - DOMAIN-SUFFIX,server2.cn2gias.uk
+  - DOMAIN-SUFFIX,s2.array2026.cc
   # - DOMAIN-KEYWORD,emby
